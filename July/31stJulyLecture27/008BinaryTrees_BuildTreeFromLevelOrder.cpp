@@ -8,7 +8,7 @@ Example
 */
 
 #include<iostream>
-
+#include<bits/stdc++.h>
 using namespace std;
 
 class node {
@@ -27,7 +27,7 @@ void levelOrder(node* root) {
 	queue<node*> q;
 	q.push(root);
 	q.push(NULL);
-	while(!q.emtpy()) {
+	while(!q.empty()) {
 		node* front = q.front(); q.pop();
 		if(front == NULL) {
 			cout << endl;

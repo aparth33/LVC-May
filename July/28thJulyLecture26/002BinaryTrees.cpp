@@ -81,7 +81,7 @@ node* buildTree() {
 int main() {
 
 	node* root = NULL;
-£
+
 	root = buildTree();
 
 	preorder(root);  cout << endl;

@@ -28,7 +28,7 @@ node* buildTree() {
 	int x; 
 	cin >> x;
 
-	if(x == -1) {≈
+	if(x == -1) {
 		return NULL;
 	}
 
